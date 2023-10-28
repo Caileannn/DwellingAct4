@@ -1,7 +1,6 @@
 {
   "dependencies": {
     "com.unity.barracuda": "3.0.0",
-    "com.unity.burst": "1.8.9",
     "com.unity.collab-proxy": "2.0.5",
     "com.unity.feature.development": "1.0.1",
     "com.unity.recorder": "4.0.1",
@@ -10,6 +9,10 @@
     "com.unity.timeline": "1.7.5",
     "com.unity.ugui": "1.0.0",
     "com.unity.visualscripting": "1.8.0",
+    "jp.keijiro.klak.ndi": "2.1.0",
+    "jp.keijiro.midi-jack": "0.0.1",
+    "jp.keijiro.minis": "1.0.10",
+    "jp.keijiro.minis.visualscripting": "1.0.6",
     "jp.keijiro.osc-jack": "2.0.0",
     "jp.keijiro.pcx": "1.0.1",
     "jp.keijiro.shadergraphassets": "2.5.2",

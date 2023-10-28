@@ -221,7 +221,7 @@ VisualEffect:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 307651365}
   m_Enabled: 1
-  m_Asset: {fileID: 8926484042661614526, guid: 70ed7ab9ddb2dc9a2957ad0a45b516ea, type: 3}
+  m_Asset: {fileID: 0}
   m_InitialEventName: OnPlay
   m_InitialEventNameOverriden: 0
   m_StartSeed: 0
@@ -1823,7 +1823,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rawImage: {fileID: 1200076501}
   scale: 1
-  useWebCam: 0
+  useWebCam: 1
   webCamIndex: 0
 --- !u!23 &1873549734
 MeshRenderer:
