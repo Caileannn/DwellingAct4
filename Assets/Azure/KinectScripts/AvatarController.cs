@@ -402,7 +402,8 @@ namespace com.rfilkov.components
                 if (/**playerId == 0 &&*/ userId != 0)
                     SuccessfulCalibration(userId, false);
                 else if (/**playerId != 0 &&*/ userId == 0)
-                    ResetToInitialPosition();
+                    // ResetToInitialPosition();
+                    return;
             }
 
             if (!lateUpdateAvatar && playerId != 0)
