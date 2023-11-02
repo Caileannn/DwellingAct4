@@ -259,7 +259,7 @@ MonoBehaviour:
   externalRootMotion: 0
   externalHeadRotation: 0
   externalHandRotations: 0
-  fingerOrientations: 0
+  fingerOrientations: 1
   moveRate: 1
   smoothFactor: 10
   lateUpdateAvatar: 0
@@ -361,8 +361,8 @@ MonoBehaviour:
   getColorFrames: 0
   getInfraredFrames: 0
   getPoseFrames: 0
-  getBodyFrames: 1
-  syncDepthAndColor: 1
+  getBodyFrames: 3
+  syncDepthAndColor: 0
   syncBodyAndDepth: 1
   minUserDistance: 0
   maxUserDistance: 0
@@ -733,13 +733,13 @@ VisualEffect:
       - m_Value: 0
         m_Name: Antenna Point Size
         m_Overridden: 1
-      - m_Value: 1
+      - m_Value: 4
         m_Name: Point Lifetime Max
         m_Overridden: 1
-      - m_Value: 0
+      - m_Value: 70000
         m_Name: Point Rate
         m_Overridden: 1
-      - m_Value: 0
+      - m_Value: 1
         m_Name: Turbulence Drag
         m_Overridden: 1
       - m_Value: 1
@@ -751,16 +751,16 @@ VisualEffect:
       - m_Value: 0
         m_Name: Noise
         m_Overridden: 1
-      - m_Value: 0.1
+      - m_Value: 0.01
         m_Name: Pont Lifetime Min
         m_Overridden: 1
-      - m_Value: 0
+      - m_Value: 1
         m_Name: Turbulences
         m_Overridden: 1
-      - m_Value: 0
+      - m_Value: 1
         m_Name: Turbulences Frequency
         m_Overridden: 1
-      - m_Value: 0
+      - m_Value: 0.334
         m_Name: Turbulences Ratio
         m_Overridden: 1
       - m_Value: 1.99
@@ -808,7 +808,7 @@ VisualEffect:
       - m_Value: {x: 1, y: 0.6917327, z: 0, w: 1}
         m_Name: Line Color
         m_Overridden: 1
-      - m_Value: {x: 1, y: 1, z: 1, w: 1}
+      - m_Value: {x: 1, y: 0.77925056, z: 0, w: 1}
         m_Name: Point Color
         m_Overridden: 1
     m_Uint:
@@ -853,7 +853,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 365239546}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 30ddee29d67e741429d68f6ce139af61, type: 3}
   m_Name: 
@@ -1160,8 +1160,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 624895792}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.92070276, z: -0, w: -0.39026445}
-  m_LocalPosition: {x: 3.04, y: -0.73, z: 8.950001}
+  m_LocalRotation: {x: 0.014272982, y: -0.70204425, z: -0.024736581, w: 0.7115604}
+  m_LocalPosition: {x: 5.4510007, y: -0.05499983, z: -0.5339999}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1303,7 +1303,7 @@ Camera:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 624895792}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
@@ -1759,8 +1759,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1321662289}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.70224655, y: 0.08459074, z: -0.10908293, w: 0.6984233}
-  m_LocalPosition: {x: 0.85, y: 7.47, z: 0.6}
+  m_LocalRotation: {x: 0.7048889, y: -0.05863019, z: -0.24756199, w: 0.6621234}
+  m_LocalPosition: {x: 3.83, y: 5.88, z: -1.2399998}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2124,7 +2124,7 @@ Camera:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1823688464}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
@@ -2177,7 +2177,7 @@ Transform:
   m_GameObject: {fileID: 1823688464}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.99936223, z: -0, w: -0.035710618}
-  m_LocalPosition: {x: 0.15265846, y: -1.0031738, z: 8.098137}
+  m_LocalPosition: {x: 1.48, y: -0.55, z: 2.45}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
